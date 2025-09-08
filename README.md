@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   (https://www.denieuwebibliotheek.nl/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Homepagina
   <img src="readme-images/pagina-1.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Boek detail pagina 
   <img src="readme-images/pagina-2.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -63,7 +63,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   En hier wat screenshots bij wat er uit de test kwam (de website scoort erg slecht):
   <img src="readme-images/screenshot-1-check.jpg" width="375px" alt="omschrijving van de pagina">
-  
+
   <img src="readme-images/screenshot-2-check.jpg" width="375px" alt="omschrijving van de pagina">
 
 </details>
