@@ -1,0 +1,7 @@
+<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <style>g {display: none;} g:target {display: inline;}</style>
+  <g id="check"><rect fill="#fff" height="23" rx="4.5" stroke="#e5e5e5" width="23" x=".5" y=".5"/></g>
+  <g id="check-active"><rect fill="#fff" height="23" rx="4.5" stroke="#e5e5e5" width="23" x=".5" y=".5"/><path d="m21.7 6.7-11 11c-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 10.3-10.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4z" fill="#000"/></g>
+  <g id="radio"><rect fill="#fff" height="23" rx="11.5" stroke="#e5e5e5" width="23" x=".5" y=".5"/></g>
+  <g id="radio-active"><rect fill="#fff" height="23" rx="11.5" stroke="#e5e5e5" width="23" x=".5" y=".5"/><rect fill="#000" height="16" rx="8" width="16" x="4" y="4"/></g>
+</svg>

@@ -1,0 +1,7 @@
+<svg height="391" viewBox="0 0 109 391" width="109" xmlns="http://www.w3.org/2000/svg">
+  <style>path { display: none; } path:target { display: inline; }</style>
+  <g fill="none" fill-rule="evenodd">
+    <path id="magenta" d="m.483271 391.004 98.516729-.007v-390.668143h-41.8735c17.3573 44.994443 26.8735 93.886443 26.8735 145.001143 0 92.471-31.1447 177.668-83.516729 245.674z" fill="#ed008c"/>
+    <path id="white" d="m25.9162 391.004 82.0838-.007v-390.667055l-45.08-.005848c21.2894 49.553703 33.08 104.152903 33.08 161.505903 0 84.905-25.8396 163.774-70.0838 229.174z" fill="#fff"/>
+  </g>
+</svg>
