@@ -17,6 +17,7 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	--roze:deeppink; 
 }
 
 
@@ -29,3 +30,14 @@
 
 /* jouw code */
 
+
+/*waarom doet dit hieronder het niet*/
+section:nth-of-type(1) a{
+	text-decoration-color: deeppink;
+	text-underline-offset: .3em;
+}
+
+nav {
+	background-color: black;
+	color: white;
+}
