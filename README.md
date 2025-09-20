@@ -102,20 +102,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Zoë      | Charlie          | Marc    | Elif        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Zoë            | Charlie             | Marc         |  Elif             |
+  |Breakdown schets| html                | html         | Breakdown schets  |
+  |                |                     |              | en                |
+  |                |                     |              | html              |
+  |                |                     |              | ...               |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Snapt hoe een breakdownschets moet.
+  - Begrijpt de start van de html
 
 </details>
 
@@ -129,26 +127,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben eindelijk begonnen met het neerzetten van de code en dan vooral de inhoud zoals de tekst etc. Ik had mijn html nog niet echt op orde dus het was moeilijk leesbaar tijdens de vragen die ik stelde aan studentassistenten dus dat heb ik opgelost.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Elif                                  | David              | Charlie               | Marc                | Zoë
+  | HTML laten checken                    | CSS laten checken  | Html laten checken    | Html laten checken  | Html laten checken
+  | en dat ook nog                        | en                 | en                    | en                  | en
+  | specifieke vraag website (responsive) | html laten checken | Breakdownschets       | CSS laten checken   | Vraag over links
+  |                                       |                    |                       |                     |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Hashtag geleerd bij linkje
+  - scrollen met css geleerd
+  - voor responisve gebruik maken van grid in css
 
 </details>
 
