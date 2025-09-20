@@ -11,7 +11,31 @@ section:nth-of-type(2) {
     background-color: white;
 }
 
+img{
+    border-radius:75%;
+    
+}
+
 nav {
 	background-color: black;
 	color: white;
+}
+
+header a{
+display: flex;
+justify-content: flex-end;
+}
+
+section:nth-of-type(2) {
+    background-color: lightskyblue;
+}
+
+button:nth-of-type(1) {
+    background-color: deeppink;
+    color: white;
+}
+
+footer:nth-of-type(2) section{
+    background-color: black;
+    color: white;
 }
