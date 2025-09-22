@@ -1,41 +1,128 @@
-section:nth-of-type(1) a{
-	text-decoration-color: deeppink;
-	text-underline-offset: .3em;
-}
-
-section:nth-of-type(1) {
-    background-color: deeppink;
-}
-
-section:nth-of-type(2) {
-    background-color: white;
-}
-
-img{
-    border-radius:75%;
-    
-}
-
 nav {
 	background-color: black;
 	color: white;
 }
 
 header a{
-display: flex;
-justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5%;
 }
 
-section:nth-of-type(2) {
-    background-color: lightskyblue;
+nav h2{
+    justify-content: flex-start;
 }
+
+section:nth-of-type(1) a{
+    color: black;
+    text-decoration: underline;
+	text-decoration-color: #F2059F;
+	text-underline-offset: .3em;
+}
+
+section:nth-of-type(1) {
+    background-color: #F2059F;
+    padding: 5%;
+}
+
+main section:nth-of-type(1) img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main section:nth-of-type(1) section:nth-of-type(1) {
+    padding: 7%;
+    background-color: whitesmoke;
+    border-radius: 2.5%;
+}
+
+main section:nth-of-type(2) {
+    background-color: #05C7F2;
+    color: white;
+}
+
+section:nth-of-type(2) form{
+    display: flex;
+   justify-content: center;
+}
+
+main section:nth-of-type(1) section:nth-of-type(1) {
+    padding: 7%;
+    background-color: whitesmoke;
+    border-radius: 2.5%;
+}
+
+main section:nth-of-type(3) ul li {
+    background-color: whitesmoke;
+    list-style: none;
+}
+
+main section:nth-of-type(3) img{
+    border-radius: 0%;
+}
+
+main section:nth-of-type(3) ul li a p time{
+    color: white;
+    background-color: #F2059F;
+}
+
+section:nth-of-type(4) img{
+    border-radius: 50%;
+}
+
 
 button:nth-of-type(1) {
-    background-color: deeppink;
+    background-color: #F2059F;
     color: white;
 }
 
-footer:nth-of-type(2) section{
-    background-color: black;
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+footer section:nth-of-type(1){
     color: white;
+}
+
+footer section:nth-of-type(1) ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+}
+
+footer section:nth-of-type(1) ul li{
+    background-color: white;
+    border-radius: 3%;
+    width: 10%;
+    height: 10%;
+    list-style: none;
+}
+
+footer section:nth-of-type(2) ul{
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer section:nth-of-type(2) ul li{
+    background-color: black;
+}
+
+footer section:nth-of-type(2) ul li a{
+    color: white;
+}
+
+time {
+    color: white;
+}
+
+footer h2{
+    justify-content: flex-start;
+}
+
+section {
+    border-radius: 2%;
 }

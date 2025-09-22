@@ -30,8 +30,18 @@
 
 /* jouw code */
 
+p{
+	color: black;
+}
+
+h3 {
+	color: black;
+}
 
 /*waarom doet dit hieronder het niet*/
+a {
+	text-decoration: none;
+}
 
 
 img {
