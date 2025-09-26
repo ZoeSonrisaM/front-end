@@ -3,6 +3,8 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -30,20 +32,35 @@
 
 /* jouw code */
 
-p{
-	color: black;
+
+
+body {
+	font-family: 'noto_sans_bold', sans-serif;
 }
 
-h3 {
-	color: black;
-}
+
 
 /*waarom doet dit hieronder het niet*/
 a {
 	text-decoration: none;
 }
 
+ul {
+	list-style: none;
+}
+
 
 img {
 	max-width: 100%;
+	display: block;
 }
+
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+  }
