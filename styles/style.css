@@ -38,7 +38,9 @@ body {
 	font-family: 'noto_sans_bold', sans-serif;
 }
 
-
+.scroll-lock {
+	overflow: hidden;
+  }
 
 /*waarom doet dit hieronder het niet*/
 a {
@@ -64,3 +66,4 @@ img {
 	white-space: nowrap;
 	width: 1px;
   }
+

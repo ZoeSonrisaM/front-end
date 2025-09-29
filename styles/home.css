@@ -1,13 +1,28 @@
 nav {
 	background-color: black;
-    display: flex;
+
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+  
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+    background-color: black;
+    border: solid black;
+    color: white;
 }
 
 header {
     display: grid;
     grid-template-columns: max-content 1fr;
-    height: 70px;
     background-color: black;
+    position: relative;
+    z-index: 10;
 }
 
 header nav {
@@ -28,19 +43,43 @@ header nav {
 
 header nav.open {
     translate: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+header nav.open ul:nth-of-type(1) {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav.open ul:nth-of-type(1) li{
+   padding: 3%;
+}
+
+header nav.open ul:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav.open select {
+    display: flex;
+    justify-content: center;
 }
 
 header nav ul:nth-of-type(1) {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 0.5rem;
+    gap: 2rem;
 }
 
 header nav ul:nth-of-type(2) {
     display: flex;
-    gap: 0.5rem;
-    justify-content: space-between;
+    gap: 3rem;
+    justify-content: flex-end;
+    font-weight: bold;
+    align-items: center;
 }
 
 header button{
@@ -52,6 +91,16 @@ header button{
     width: max-content;
     display:grid;
     place-items:center;
+}
+
+header nav ul:nth-of-type(1) li:nth-of-type(7) {
+    background-color: #F2059F;
+    border-radius: 3%;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 800px) {
