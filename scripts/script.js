@@ -6,6 +6,3 @@ function toggleMenu() {
 }
 
 button.onclick = toggleMenu;
-
-var MenuButton = document.querySelector("header button");
-MenuButton.onclick = MenuButton
