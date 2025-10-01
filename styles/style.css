@@ -90,6 +90,20 @@ select {
     color: white;
 }
 
+button:nth-of-type(1) {
+    background-color: #F2059F;
+    color: white;
+}
+
+@media (hover: hover) {
+	button:nth-of-type(1):hover { 
+		background-color: white;
+        color: black;
+        transition: 0.8s;
+	}
+}
+
+
 header {
     display: grid;
     grid-template-columns: max-content 1fr;
@@ -114,9 +128,16 @@ header nav {
     flex-direction: column;
 }
 
-nav a :hover {
-    color: blue;
-    text-decoration: dotted blue ;
+
+
+header img:hover {
+	transform: none;
+}
+
+@media (hover: hover) { /*mdn*/
+	header img:hover {
+		transform: scale(1.1, 1.1); /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
+	}
 }
 
 header nav a{
@@ -274,7 +295,7 @@ footer h2{
  
 footer section:nth-of-type(1){
 	 color: white;
-	 background-color: var(--mooiroze);
+	 background-color:#F2059F;
 	 padding-top: 3.75rem;
 	 padding-bottom: 5rem;
 	 display: flex;

@@ -1,3 +1,56 @@
-main {
+section {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+main img{
+    max-width: 20%;
+}
+
+main svg{
+    max-width: 20%;
+}
+
+main section:nth-of-type(1) {
+    background-color: whitesmoke;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px; /* <uit de code van de originele website gehaald*/
+    
+}
+
+main section:nth-of-type(1) a:nth-of-type(1) { /*Terug naar zoekresultaten*/
+    color: #F2059F;
+    text-decoration: underline #F2059F;
+    text-underline-offset: .1em;
+}
+
+main section:nth-of-type(1) button:nth-of-type(1) { /*roze button met pijltje naar links*/
+    max-width: 10%;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+main section:nth-of-type(1) p:nth-of-type(1) { /*resultaat 5 van 847*/
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    justify-content: space-between;
+    padding-left: 15%;
+}
+
+main section:nth-of-type(1) a:nth-of-type(2) { /*Gareth, Brown*/
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
