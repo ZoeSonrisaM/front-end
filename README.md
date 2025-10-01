@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Zoë de Vette (vervangen door jouw naam)
+  Zoë de Vette
 
   #### Je startniveau:
   Blauw
 
   #### Je focus:
-  voor nu denk ik responsive. 
+  Responsive
  
 </details>
 
@@ -43,7 +43,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/pagina-1.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Boek detail 
+  Detail pagina 
   <img src="readme-images/pagina-2.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -56,7 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  De structuur van de headings is niet erg logisch. Je hoort bij meerdere headings 'link' en bij sommige zelfs 'geopend' waarbij ik al niet begrijp wat ie bedoelt want ik heb helemaal geen andere vensters daarvan open staan. 
+  De structuur van de headings op de echte website zijn niet erg logisch. Je hoort bij meerdere headings 'link' en bij sommige zelfs 'geopend' waarbij ik al niet begrijp wat ie bedoelt want ik heb helemaal geen andere vensters daarvan open staan. 
   De linkjes hebben wel een goeie naam en geven duidelijk aan waar je naartoe gaat. 
 
   Ik heb via een website de website laten scannen door een accessibility check (hier de link naar de website: https://www.accessibilitychecker.org/audit/?website=https%3A%2F%2Fwww.denieuwebibliotheek.nl%2F&flag=eu)
@@ -83,8 +83,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdownschets5.jpg" width="375px" alt="breakdown van de hele pagina">
   <img src="readme-images/breakdownschets6.jpg.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### detail pagina: 
+  <img src="readme-images/detail-breakdownschets-1.jpg" width="375px" alt="breakdown van de detailpagina">
+  <img src="readme-images/detail-breakdownschets-2.jpg" width="375px" alt="breakdown van de detailpagina">
+  <img src="readme-images/detail-breakdownschets-3.jpg" width="375px" alt="breakdown van de detailpagina">
+  <img src="readme-images/detail-breakdownschets-4.jpg" width="375px" alt="breakdown van de detailpagina">
 
 </details>
 
@@ -161,7 +164,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Ik heb in deze week nog niet mijn eigen website kunnen testen op toegankelijkheid omdat ik nog niet ver genoeg was om iets te kunnen
+  testen.
 
 </details>
 
@@ -175,26 +179,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik had zelf moeite met het het maken van de nav. 
+  Ik had zelf moeite met het het maken van de nav. Daardoor ben ik de laatste les bij een studentassistent gaan zitten en die heeft me laten zien hoe ik dat kon doen en de code daarvan naar me toegestuurd. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Zoë                                             | Elif                  | Marc    
+  | ---                                             | Had een vraag over    | Had een vraag over z'n nav         
+  | Ik had niet echt veel te bespreken omdat ik     | haar tweede pagina    | en over de responsiveness 
+  | de dag ervoor al veel vragen had gesteld aan    | en wilde de feedback  | van z'n website 
+  | de student assistent en toen had ik nog niet    | op haar html.         |           
+  | alles in de code kunnen zetten daarvan voordat  |                       |
+  | het voortgangsgesprek was.                      |                       |
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Het was een korte meeting omdat we allemaal nog vollop bezig waren. We waren het er allemaal over eens dat er nog wel wat vragen 
+  bij ons op zouden komen in de tijd dat we thuis aan de code verder werken. Verder hebben we het nog gehad over welke mogelijke
+  vragen er gesteld zouden kunnen worden tijdens het eindgesprek.
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Voice-over moeten kunnen gebruiken.
+  - Iedereen moest z'n verslag (dit verslag) nog bijwerken.
+  - Voor een dark modus hoef je niet de afbeeldingen aan te passen.
+  - Comments zetten in de css zodat Sanne tijdens het eindgesprek snel kan zien waar dat specifieke stukje over gaat.
 
 </details>
 
@@ -236,8 +243,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.a11yproject.com/posts/how-to-hide-content/
+  2. https://www.denieuwebibliotheek.nl/
+  3. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover
 
 </details>
