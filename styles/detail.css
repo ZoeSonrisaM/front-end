@@ -3,10 +3,6 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-main img{
-    max-width: 20%;
-}
-
 main svg{
     max-width: 20%;
 }
@@ -14,7 +10,8 @@ main svg{
 main section:nth-of-type(1) {
     background-color: whitesmoke;
     padding: 5%;
-    border-radius: 5px;
+    margin: 5%;
+    border-radius: 3rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px; /* <uit de code van de originele website gehaald*/
     
 }
@@ -45,7 +42,7 @@ main section:nth-of-type(1) a:nth-of-type(3) { /*roze button met pijltje naar re
     background-color: none;
     color: #F2059F;
     text-decoration: none;
-    padding-left: 80%;
+    padding-left: 95%;
 }
 
 main section:nth-of-type(1) p:nth-of-type(1) { /*resultaat 5 van 847*/
@@ -53,8 +50,8 @@ main section:nth-of-type(1) p:nth-of-type(1) { /*resultaat 5 van 847*/
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: -1;
-    padding-left: 15%;
     padding-right: 0;
+    justify-self: center;
 }
 
 main section:nth-of-type(1) img:nth-of-type(1) { /*foto met het boek*/
@@ -132,8 +129,7 @@ main:nth-of-type(1) a:nth-of-type(5) {
 }
 
 main section:nth-of-type(1) a:nth-of-type(5) img{
-    width: 5em;
-    aspect-ratio: 1;
+    max-width: 70%;
 }
 
 main section:nth-of-type(1) p:nth-of-type(5) { /*2 stem(men)*/
@@ -150,8 +146,116 @@ main section:nth-of-type(1) h3:nth-of-type(1) {
     grid-row-end: 12;
 }
 
+main section:nth-of-type(1) ul:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    display: flex;
+    justify-content: flex-start;
+}
+
+main section:nth-of-type(1) ul:nth-of-type(1) li{
+    padding-right: 5%;
+}
+
+main section:nth-of-type(1) h3:nth-of-type(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 13;
+    grid-row-end: 14;
+}
+
+main section:nth-of-type(1) p:nth-of-type(6) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 14;
+    grid-row-end: 15;
+}
+
+main section:nth-of-type(1) button:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 15;
+    grid-row-end: 16;
+}
+
+main section:nth-of-type(1) button:nth-of-type(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 16;
+    grid-row-end: 17;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main section:nth-of-type(1) button:nth-of-type(2) img{ /*icon van een lijstje*/
+   height: 3vh;
+   justify-self: flex-start;
+}
+
+main section:nth-of-type(2) ul:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+main section:nth-of-type(2) ul{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+main section:nth-of-type(2) ul button{
+    border: 1px;
+    border-bottom: none;
+    background: none;
+    color: #e6007e;
+    font-weight: bold;
+    padding: 1em;
+    cursor: pointer;
+}
+
+main section:nth-of-type(2) ul button[aria-selected="false"]:hover {
+    color: #c00065;
+}
+
+main section:nth-of-type(2) ul button[aria-selected="true"] {
+    border: 1px solid #ccc;
+    border-bottom: 1px solid white;
+    background: white;
+    color: black;
+    border-radius: .5em .5em 0 0;
+}
+
 footer {
     background-color: black;
     color: white;
 }
 
+footer section {
+    background-color: black;
+    padding: 5%;
+}
+
+footer section ul{
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 80vw;
+}
+
+footer section ul li{
+    background-color: black;
+    padding: 5%;
+}
+
+footer section ul li a{
+    color: white;
+}
