@@ -19,7 +19,7 @@
 	/* startje */
 	--tekst:#111;
 	--color-background:#eee;
-	--mooiroze:#F2059F;  /* Ik wil dit wel doen alleen hij pakt hem niet overal in de css, dan zie ik geen kleurblokje verschijnen*/
+	--klikbaar:#F2059F;  /* Ik wil dit wel doen alleen hij pakt hem niet overal in de css, dan zie ik geen kleurblokje verschijnen*/
 }
 
 
@@ -45,6 +45,7 @@ body {
 /*waarom doet dit hieronder het niet*/
 a {
 	text-decoration: none;
+	display: grid;
 }
 
 ul {
@@ -91,7 +92,7 @@ select {
 }
 
 button:nth-of-type(1) {
-    background-color: #F2059F;
+    background-color: var(--klikbaar);
     color: white;
 }
 
@@ -153,8 +154,8 @@ nav svg {
 @media (hover: hover) {
     /* when hover is supported */
     a:hover {
-      color: #F2059F;
-      text-decoration: underline #F2059F;
+      color: var(--klikbaar);
+      text-decoration: underline var(--klikbaar);
       transition: 0.8s;
     }
 }
@@ -240,13 +241,19 @@ header button{
 }
 
 header nav ul:nth-of-type(1) li:nth-of-type(7) {
-    background-color:  #F2059F;
+    background-color:  var(--klikbaar);
     border-radius: 3%;
     width: 8%;
     display: flex;
     justify-content: center;
     padding: 0.1rem;
 }
+
+header nav ul:nth-of-type(1) li:nth-of-type(7) button:hover{
+    background-color:  var(--klikbaar);
+}
+
+
 
 nav h2{
     justify-content: flex-start;

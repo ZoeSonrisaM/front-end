@@ -215,19 +215,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/home-page-update.png" width="375px" alt=">
+  <img src="readme-images/detail-pagina-update.png" width="375px" alt="">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd om met grid te werken, dit vond ik echt een eye opener inplaats van met flex box werken elke keer.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/grid.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik vond de nav heel erg lastig. 
+  Er zijn best wel veel dingen niet gelukt (ik zal ze even opnoemen):
+    wat niet gelukt is zijn de twee carousels op de detail pagina. Ik kwam daarmee toch nogal in tijdsnood.
+    de dark mode is niet gelukt vanwege dat ik de root kleur niet aan de praat kreeg (en ik kwam er niet uit vanwege dat bepaalde elementen meerdere kleuren hadden).
+    de footer op de home pagina is niet helemaal gelukt. 
+    het stukje van het filmhuis op de home pagina is ook niet helemaal gelukt.
+    ook hebben niet alle a'tjes en buttons het gewenste effect als je eroverheen hovert.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/nav.png" width="375px" alt="bummer">
+  <img src="readme-images/carousel.png" width="375px" alt="bummer">
 </details>
 
 
@@ -246,5 +253,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. https://www.a11yproject.com/posts/how-to-hide-content/
   2. https://www.denieuwebibliotheek.nl/
   3. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover
+  4. Student assistenten. 
 
 </details>

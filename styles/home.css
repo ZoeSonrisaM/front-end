@@ -1,13 +1,12 @@
-
 section:nth-of-type(1) a{
     color: black;
     text-decoration: underline;
-	text-decoration-color: #F2059F;
+	text-decoration-color: var(--klikbaar);
 	text-underline-offset: .3em;
 }
 
 main > section:nth-of-type(1) {
-    background: linear-gradient(180deg, #F2059F 80%, white 80%);
+    background: linear-gradient(180deg, var(--klikbaar) 80%, white 80%);
     position: relative;
     overflow: hidden;
     padding-bottom: 15rem;
@@ -39,7 +38,7 @@ main section:nth-of-type(1) section:nth-of-type(1) a:hover {
 @media (hover: hover) {
     /* when hover is supported */
     main section:nth-of-type(1) section:nth-of-type(1) a:hover {
-      color:#F2059F;
+      color:var(--klikbaar);
       text-decoration: none;
       transition: 0.5s;
     }
@@ -51,6 +50,72 @@ main section:nth-of-type(1) section:nth-of-type(1) h2{
     justify-content: flex-start;
 }
 
+main section:nth-of-type(2) {
+    background-color: #05C7F2;
+    color: white;
+    padding: 1.25rem 1.25rem 2.5rem;
+}
+
+main section:nth-of-type(2) h2{
+    padding-bottom: 1rem;
+    text-align: center;
+    z-index: 100;
+}
+
+section:nth-of-type(2) form{
+    display: flex;
+    justify-content: center;
+}
+
+section:nth-of-type(2) input {
+    width: 100%;
+    height: 100%;
+    border: solid 1px #e5e5e5;
+    padding: 4%;
+  border-radius: .5em .0 .0 .5em;
+}
+
+section:nth-of-type(2) ::placeholder{
+    font-size: 1rem;
+}
+
+section:nth-of-type(2) button {
+    border: none;
+    padding: 4%;
+    background-color: #F2059F;
+    color: white;
+    border-radius: 0 .5em .5em 0;
+}
+
+section:nth-of-type(2) button:hover {
+    background: black;
+}
+
+@media (min-width: 768px) {
+  section:nth-of-type(2) {
+    background-image: url("../images/boekjes-vliegen.png");
+    background-size: cover; 
+    background-size: 100vw auto;
+    height: auto;
+    background-position: center;
+  }
+  form {
+        padding: 3.75rem 2.5rem 3.75rem;
+        height: auto;
+        color: #000;
+        background-color: #fff;
+        border: solid 1px #e5e5e5;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+        border-radius: 10px;
+    margin-top: -5rem;
+  }
+  
+  section:nth-of-type(2) h2 {
+    color: #000000;
+    z-index: 100;
+  }
+}
+/*
 main section:nth-of-type(2) {
     background-color: #05C7F2;
     color: white;
@@ -78,9 +143,10 @@ section:nth-of-type(2) ::placeholder{
 }
 
 section:nth-of-type(2) button {
-    border: solid 1px #F2059F;
+    border: solid 1px var(--klikbaar);
     padding: 4%;
 }
+*/
 
 main section:nth-of-type(3) {
     padding: 10%;
@@ -98,14 +164,35 @@ main section:nth-of-type(3) ul li {
     position: relative;
     padding: 1.875rem 1.25rem 2.5rem;
     margin-bottom: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px;
+    display: grid;
 }
 
 main section:nth-of-type(3) p{
     color: black;
 }
 
+main section:nth-of-type(3) ul li:nth-of-type(1) a p:nth-of-type(2){
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main section:nth-of-type(3) ul li:nth-of-type(2) a p:nth-of-type(2){
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main section:nth-of-type(3) ul li:nth-of-type(3) a p:nth-of-type(2){
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 main section:nth-of-type(3) h3{
     color: black;
+    grid-row: 1;
 }
 
 main section:nth-of-type(3) ul {
@@ -120,11 +207,14 @@ main section:nth-of-type(3) ul li{
 
 main section:nth-of-type(3) img{
     border-radius: 0%;
+    width: 25vw;
+    grid-row: 1;
+    padding-top: 1.5em;
 }
 
 main section:nth-of-type(3) ul li a p time{
     color: white;
-    background-color:  #F2059F;
+    background-color:  var(--klikbaar);
     position: absolute;
     top: 0;
     left: 2rem;
@@ -133,12 +223,12 @@ main section:nth-of-type(3) ul li a p time{
 }
 
 main section:nth-of-type(3) a:nth-of-type(4) {
-    background-color: #F2059F;
+    background-color: var(--klikbaar);
     align-self: center;
 }
 
 main > section:nth-of-type(3) > a { 
-    background-color:#F2059F ;
+    background-color: var(--klikbaar) ;
     color: white;
     display: flex;
     justify-content: center;
@@ -159,7 +249,7 @@ section:nth-of-type(4) img{
 
 section:nth-of-type(4) a{
     color: white;
-    background-color: #F2059F;
+    background-color: var(--klikbaar);
     padding: 5%;
     display: block;
     margin: 20px;
@@ -168,7 +258,7 @@ section:nth-of-type(4) a{
 
 footer section:nth-of-type(1){
     color: white;
-    background-color:#F2059F;
+    background-color:var(--klikbaar);
     padding-top: 3.75rem;
     padding-bottom: 5rem;
     display: flex;
@@ -181,43 +271,43 @@ footer h2{
 }
  
 footer section:nth-of-type(1) ul{
-	 display: flex;
-	 justify-content: space-around;
-	 padding: 0.5rem;
+	display: flex;
+	justify-content: space-around;
+	padding: 0.5rem;
 }
  
 footer section:nth-of-type(1) ul li{
-	 background-color: white;
-	 border-radius: 25%;
-	 width: 10%;
-	 height: 10%;
-	 list-style: none;
-	 padding: 1rem;
+	background-color: white;
+	border-radius: 25%;
+	width: 10%;
+	height: 10%;
+	list-style: none;
+	padding: 1rem;
 }
  
 footer section:nth-of-type(2) {
-	 background-color: black;
-	 padding: 5%;
+	background-color: black;
+	padding: 5%;
 }
  
 footer section:nth-of-type(2) ul{
-	 padding: 0%;
-	 list-style: none;
-	 display: flex;
-	 flex-wrap: wrap;
-	 justify-content: space-evenly;
+	padding: 0%;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
  
 footer section:nth-of-type(2) ul li{
-	 background-color: black;
+	background-color: black;
 }
  
 footer section:nth-of-type(2) ul li a{
-	 color: white;
+	color: white;
 }
  
 footer h2{
-	 justify-content: flex-start;
+	justify-content: flex-start;
 }
  
  
