@@ -1,5 +1,5 @@
 section:nth-of-type(1) a{
-    color: black;
+    color: var(--zwart);
     text-decoration: underline;
 	text-decoration-color: var(--klikbaar);
 	text-underline-offset: .3em;
@@ -32,7 +32,7 @@ main section:nth-of-type(1) section:nth-of-type(1) {
 }
 
 main section:nth-of-type(1) section:nth-of-type(1) a:hover {
-    color: black;
+    color: var(--zwart);
 }
 
 @media (hover: hover) {
@@ -82,13 +82,13 @@ section:nth-of-type(2) ::placeholder{
 section:nth-of-type(2) button {
     border: none;
     padding: 4%;
-    background-color: #F2059F;
+    background-color: var(--klikbaar);
     color: white;
     border-radius: 0 .5em .5em 0;
 }
 
 section:nth-of-type(2) button:hover {
-    background: black;
+    background: var(--zwart);
 }
 
 @media (min-width: 768px) {
@@ -102,7 +102,7 @@ section:nth-of-type(2) button:hover {
   form {
         padding: 3.75rem 2.5rem 3.75rem;
         height: auto;
-        color: #000;
+        color: var(--zwart);
         background-color: #fff;
         border: solid 1px #e5e5e5;
         box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
@@ -111,7 +111,7 @@ section:nth-of-type(2) button:hover {
   }
   
   section:nth-of-type(2) h2 {
-    color: #000000;
+    color: var(--zwart);
     z-index: 100;
   }
 }
@@ -169,7 +169,7 @@ main section:nth-of-type(3) ul li {
 }
 
 main section:nth-of-type(3) p{
-    color: black;
+    color: var(--zwart);
 }
 
 main section:nth-of-type(3) ul li:nth-of-type(1) a p:nth-of-type(2){
@@ -191,7 +191,7 @@ main section:nth-of-type(3) ul li:nth-of-type(3) a p:nth-of-type(2){
 }
 
 main section:nth-of-type(3) h3{
-    color: black;
+    color: var(--zwart);
     grid-row: 1;
 }
 
@@ -286,7 +286,7 @@ footer section:nth-of-type(1) ul li{
 }
  
 footer section:nth-of-type(2) {
-	background-color: black;
+	background-color: var(--zwart);
 	padding: 5%;
 }
  
@@ -299,7 +299,7 @@ footer section:nth-of-type(2) ul{
 }
  
 footer section:nth-of-type(2) ul li{
-	background-color: black;
+	background-color: var(--zwart);
 }
  
 footer section:nth-of-type(2) ul li a{

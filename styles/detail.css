@@ -39,7 +39,6 @@ main section:nth-of-type(1) a:nth-of-type(3) { /*roze button met pijltje naar re
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: none;
     color: var(--klikbaar);
     text-decoration: none;
     padding-left: 95%;
@@ -227,17 +226,71 @@ main section:nth-of-type(2) ul button[aria-selected="true"] {
     border: 1px solid #ccc;
     border-bottom: 1px solid white;
     background: white;
-    color: black;
+    color: var(--zwart);
     border-radius: .5em .5em 0 0;
 }
 
+main section:nth-of-type(3) ul {
+    list-style: none;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    overflow-x: auto;
+    anchor-name: --carousel;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+main section:nth-of-type(3) ul {
+    &::scroll-button(*) {
+        position: fixed;
+        position-anchor: --carousel;
+        position-visibility: always;
+        font-family: "Material Symbols Outlined";
+        width: 30px;
+        height: 30px;
+      }
+    
+      &::scroll-button(right) {
+        position-area: center center;
+        justify-self: end;
+        content: "" / "Next";
+      }
+    
+      &::scroll-button(left) {
+        position-area: center center;
+        justify-self: start;
+        content: "" / "Previous";
+        background-image: "url()"; /* dit is voor het pijl icoontje */
+        background-size: cover; /* dit is voor het pijl icoontje */
+      }
+}
+
+main section:nth-of-type(3) ul li{
+    scroll-snap-align: center;
+    height: 20em;
+    width: min(24em, 100%); /* geen media query nodig */
+    flex-shrink: 0;
+}
+
+main section:nth-of-type(3) ul li img{
+    max-width: 10vw;
+}
+
+main section:nth-of-type(3) ul li a{
+    color: var(--klikbaar) ;
+}
+
 footer {
-    background-color: black;
+    background-color: var(--zwart);
     color: white;
 }
 
 footer section {
-    background-color: black;
+    background-color: var(--zwart);
     padding: 5%;
 }
 
@@ -252,7 +305,7 @@ footer section ul{
 }
 
 footer section ul li{
-    background-color: black;
+    background-color: var(--zwart);
     padding: 5%;
 }
 

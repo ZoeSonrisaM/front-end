@@ -17,7 +17,7 @@
 /*********************/
 :root {
 	/* startje */
-	--tekst:#111;
+	--zwart:#000;
 	--color-background:#eee;
 	--klikbaar:#F2059F;  /* Ik wil dit wel doen alleen hij pakt hem niet overal in de css, dan zie ik geen kleurblokje verschijnen*/
 }
@@ -73,7 +73,7 @@ img {
   }
 
   nav {
-	background-color: black;
+	background-color: var(--zwart);
 
 }
 
@@ -86,8 +86,8 @@ label {
 select {
     font-size: 0.9rem;
     padding: 2px 5px;
-    background-color: black;
-    border: solid black;
+    background-color: var(--zwart);
+    border: solid var(--zwart);
     color: white;
 }
 
@@ -99,7 +99,7 @@ button:nth-of-type(1) {
 @media (hover: hover) {
 	button:nth-of-type(1):hover { 
 		background-color: white;
-        color: black;
+        color: var(--zwart);
         transition: 0.8s;
 	}
 }
@@ -108,7 +108,7 @@ button:nth-of-type(1) {
 header {
     display: grid;
     grid-template-columns: max-content 1fr;
-    background-color: black;
+    background-color: var(--zwart);
     position: relative;
     z-index: 10;
 }
@@ -167,7 +167,7 @@ header nav ul:nth-of-type(1) li:nth-of-type(7) :hover{
 @media (hover: hover) {
     /* when hover is supported */
     header nav ul:nth-of-type(1) li:nth-of-type(7) :hover {
-      color: black;
+      color: var(--zwart);
       background-color: #e5e5e5;
       text-decoration: none;
       transition: 0.8s;
@@ -301,7 +301,7 @@ header img{
     height: 30px;
     aspect-ratio: 1;
     align-self: end;
-    background-color: black;
+    background-color: var(--zwart);
     width: 200px;
     margin: 20px;
 }
