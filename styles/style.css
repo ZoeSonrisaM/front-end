@@ -18,7 +18,8 @@
 :root {
 	/* startje */
 	--zwart:#000;
-	--color-background:#eee;
+	--witte: #ffffff;
+    --grijs: #968c8c;
 	--klikbaar:#F2059F;  /* Ik wil dit wel doen alleen hij pakt hem niet overal in de css, dan zie ik geen kleurblokje verschijnen*/
 }
 

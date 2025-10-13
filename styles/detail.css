@@ -3,6 +3,16 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+header form {
+    background-color: var(--witte);
+    padding: 1rem;
+}
+
+header form select{
+    background-color: var(--grijs);
+    margin: 2rem;
+}
+
 main svg{
     max-width: 20%;
 }
@@ -17,9 +27,10 @@ main section:nth-of-type(1) {
 }
 
 main section:nth-of-type(1) a:nth-of-type(1) { /*Terug naar zoekresultaten*/
-    color: var(--mooiroze);
+    color: var(--klikbaar);
     text-decoration: underline var(--klikbaar);
     text-underline-offset: .1em;
+    padding: 1rem;
 }
 
 main section:nth-of-type(1) a:nth-of-type(2) { /*roze button met pijltje naar links*/
@@ -51,6 +62,7 @@ main section:nth-of-type(1) p:nth-of-type(1) { /*resultaat 5 van 847*/
     grid-row-end: -1;
     padding-right: 0;
     justify-self: center;
+    padding: 1rem;
 }
 
 main section:nth-of-type(1) img:nth-of-type(1) { /*foto met het boek*/
@@ -65,7 +77,9 @@ main section:nth-of-type(1) a:nth-of-type(4) { /*Gareth, Brown*/
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 4;
-    
+    color: var(--klikbaar);
+    text-decoration: underline;
+    margin: 1rem;
 }
 
 main section:nth-of-type(1) h2:nth-of-type(1) { /*The book of doors*/
@@ -80,13 +94,15 @@ main section:nth-of-type(1) svg:nth-of-type(1) { /*svg boek*/
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 6;
+    margin: 2rem;
 }
 
 main section:nth-of-type(1) p:nth-of-type(2) { /*Boek - Engels - 2025 - 497 pagina's; 20 cm*/
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     grid-row-start: 6;
     grid-row-end: 7;
+    margin: 1rem;
 }
 
 main section:nth-of-type(1) img:nth-of-type(2) { /*science-fiction foto*/
@@ -119,7 +135,7 @@ main section:nth-of-type(1) p:nth-of-type(4) { /*thriller tekst*/
     padding-left: 20%;
 }
 
-main:nth-of-type(1) a:nth-of-type(5) {
+main:nth-of-type(1) a:nth-of-type(5) { /*de sterren*/
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 9;
@@ -138,14 +154,14 @@ main section:nth-of-type(1) p:nth-of-type(5) { /*2 stem(men)*/
     grid-row-end: 11;
 }
 
-main section:nth-of-type(1) h3:nth-of-type(1) {
+main section:nth-of-type(1) h3:nth-of-type(1) { /*onderwerp*/
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 11;
     grid-row-end: 12;
 }
 
-main section:nth-of-type(1) ul:nth-of-type(1) {
+main section:nth-of-type(1) ul:nth-of-type(1) { /*lijst met boeken,demonen,magie,goed en kwaad*/
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 12;
@@ -154,7 +170,7 @@ main section:nth-of-type(1) ul:nth-of-type(1) {
     justify-content: flex-start;
 }
 
-main section:nth-of-type(1) ul:nth-of-type(1) li{
+main section:nth-of-type(1) ul:nth-of-type(1) li{ /*de aparte list items aangesproken van het stukje: boeken,demonen,magie,goed en kwaad*/
     padding-right: 5%;
 }
 
@@ -177,6 +193,20 @@ main section:nth-of-type(1) button:nth-of-type(1) {
     grid-column-end: 4;
     grid-row-start: 15;
     grid-row-end: 16;
+    border-style: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+@media (hover: hover) {
+    /* when hover is supported */
+    main section:nth-of-type(1) button:nth-of-type(1):hover {
+      color: var(--witte);
+      background-color: var(--grijs);
+      text-decoration: none;
+      transition: 0.5s;
+    }
 }
 
 main section:nth-of-type(1) button:nth-of-type(2) {
@@ -188,11 +218,25 @@ main section:nth-of-type(1) button:nth-of-type(2) {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+@media (hover: hover) {
+    /* when hover is supported */
+    main section:nth-of-type(1) button:nth-of-type(2):hover {
+      color: var(--witte);
+      background-color: var(--grijs);
+      border-color: var(--grijs);
+      text-decoration: none;
+      transition: 0.5s;
+    }
 }
 
 main section:nth-of-type(1) button:nth-of-type(2) img{ /*icon van een lijstje*/
    height: 3vh;
-   justify-self: flex-start;
+   align-self: flex-start;
 }
 
 main section:nth-of-type(2) ul:nth-of-type(1) {
@@ -230,6 +274,10 @@ main section:nth-of-type(2) ul button[aria-selected="true"] {
     border-radius: .5em .5em 0 0;
 }
 
+main section:nth-of-type(3) h2{
+    justify-content: flex-start;
+}
+
 main section:nth-of-type(3) ul {
     list-style: none;
     grid-column-start: 1;
@@ -252,18 +300,21 @@ main section:nth-of-type(3) ul {
         font-family: "Material Symbols Outlined";
         width: 30px;
         height: 30px;
+        background: none;
+        list-style: none;
+        border: none;
       }
     
       &::scroll-button(right) {
         position-area: center center;
         justify-self: end;
-        content: "" / "Next";
+        content: ">" / "Next";
       }
     
       &::scroll-button(left) {
         position-area: center center;
         justify-self: start;
-        content: "" / "Previous";
+        content: "<" / "Previous";
         background-image: "url()"; /* dit is voor het pijl icoontje */
         background-size: cover; /* dit is voor het pijl icoontje */
       }
@@ -278,6 +329,7 @@ main section:nth-of-type(3) ul li{
 
 main section:nth-of-type(3) ul li img{
     max-width: 10vw;
+    min-width: 5vw;
 }
 
 main section:nth-of-type(3) ul li a{
