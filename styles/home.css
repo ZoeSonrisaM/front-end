@@ -5,57 +5,6 @@ section:nth-of-type(1) a{
 	text-underline-offset: .3em;
 }
 
-@media (prefers-color-scheme:dark){
-    main section:nth-of-type(1) a{
-    background-color: var(--zwart);
-    color: var(--witte);
-    }
-    main section:nth-of-type(1) section:nth-of-type(1){
-        background-color: var(--zwart);
-        color: var(--zwart);
-    }
-    main section:nth-of-type(2) {
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
-    main section:nth-of-type(2) h2{
-        color: var(--klikbaar);
-    }
-    section:nth-of-type(2) input {
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
-    section:nth-of-type(2) button:hover {
-        background-color: var(--witte);
-        color: var(--klikbaar);
-    }
-    main section:nth-of-type(3) {
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
-    main section:nth-of-type(3) ul li {
-        background-color: var(--klikbaar);
-        color: var(--zwart);
-    }
-    main section:nth-of-type(3) ul li a p time{
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
-    main section:nth-of-type(4) {
-        background-color: var(--zwart);
-        color: var(--witte);
-    }
-    main section:nth-of-type(4) img{
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
-    footer section:nth-of-type(1){
-        background-color: var(--klikbaar);
-        color: var(--zwart);
-    }
-}
-
-
 main > section:nth-of-type(1) {
     background: linear-gradient(180deg, var(--klikbaar) 80%, var(--witte) 80%);
     position: relative;
