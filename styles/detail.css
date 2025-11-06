@@ -13,7 +13,6 @@ main section:nth-of-type(1) {
     margin: 5%;
     border-radius: 3rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px; /* <uit de code van de originele website gehaald*/
-    
 }
 
 main section:nth-of-type(1) a:nth-of-type(1) { /*Terug naar zoekresultaten*/
@@ -239,6 +238,10 @@ main section:nth-of-type(1) button:nth-of-type(2) img{ /*icon van een lijstje*/
     width: 1px;
 }
 
+main section:nth-of-type(2) nav{
+    background-color: white;
+}
+
 main section:nth-of-type(2) ul{
     list-style: none;
     display: flex;
@@ -246,6 +249,11 @@ main section:nth-of-type(2) ul{
 }
 
 main section:nth-of-type(2) ul li label{
+   position: relative;
+}
+
+main section:nth-of-type(2) ul li label input{
+    background: blue;
     position: absolute;
     top: 0;
     left: 0;
@@ -257,8 +265,9 @@ main section:nth-of-type(2) ul li label{
 }
 
 main section:nth-of-type(2) ul li label input:checked{
-    background: blue;
+    background-color: purple;
 }
+
 
 main section:nth-of-type(2) > ul li {
     display: none;

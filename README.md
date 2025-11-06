@@ -254,5 +254,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. https://www.denieuwebibliotheek.nl/
   3. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover
   4. Student assistenten. 
+  5. https://codepen.io/ZoeSonrisaM/pen/wBMvXBN (deze codepen heb ik ge forked van Sanne)
 
 </details>

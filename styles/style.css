@@ -20,7 +20,8 @@
 	--zwart:#000;
 	--witte: #ffffff;
     --grijs: #968c8c;
-	--klikbaar:#F2059F;  /* Ik wil dit wel doen alleen hij pakt hem niet overal in de css, dan zie ik geen kleurblokje verschijnen*/
+	--klikbaar:#F2059F;
+    --blauw:#05C7F2;
 }
 
 
@@ -32,6 +33,7 @@
 /****************/
 
 /* jouw code */
+
 
 
 
@@ -89,17 +91,17 @@ select {
     padding: 2px 5px;
     background-color: var(--zwart);
     border: solid var(--zwart);
-    color: white;
+    color: var(--witte);
 }
 
 button:nth-of-type(1) {
     background-color: var(--klikbaar);
-    color: white;
+    color: var(--witte);
 }
 
 @media (hover: hover) {
 	button:nth-of-type(1):hover { 
-		background-color: white;
+		background-color: var(--witte);
         color: var(--zwart);
         transition: 0.8s;
 	}
@@ -147,7 +149,7 @@ header nav a{
 }
 
 nav svg {
-    fill: white;
+    fill: var(--witte);
     width: 20px;
     height: 20px;
 }
@@ -162,14 +164,14 @@ nav svg {
 }
 
 header nav ul:nth-of-type(1) li:nth-of-type(7) :hover{
-    color: white;
+    color: var(--witte);
 }
 
 @media (hover: hover) {
     /* when hover is supported */
     header nav ul:nth-of-type(1) li:nth-of-type(7) :hover {
       color: var(--zwart);
-      background-color: #e5e5e5;
+      background-color: var(--grijs);
       text-decoration: none;
       transition: 0.8s;
     }
@@ -294,7 +296,7 @@ nav h2{
 
 header a{
     display: block;
-    color: white;
+    color: var(--witte);
 }
 
 header img{
@@ -312,7 +314,7 @@ footer h2{
 }
  
 time {
-	 color: white;
+	 color: var(--witte);
 }
  
  
