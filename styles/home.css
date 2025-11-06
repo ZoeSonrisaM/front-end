@@ -6,13 +6,13 @@ section:nth-of-type(1) a{
 }
 
 @media (prefers-color-scheme:dark){
-    section:nth-of-type(1) a{
+    main section:nth-of-type(1) a{
     background-color: var(--zwart);
     color: var(--witte);
     }
     main section:nth-of-type(1) section:nth-of-type(1){
         background-color: var(--zwart);
-        color: var(--witte);
+        color: var(--zwart);
     }
     main section:nth-of-type(2) {
         background-color: var(--zwart);
@@ -363,6 +363,7 @@ footer section:nth-of-type(1){
 
 footer section:nth-of-type(1) >a:nth-of-type(1){ /*als ik deze aanpas dan gaan de a'tjes in de list hieronder ook mee en ik snap niet waarom?*/
     background-color: var(--zwart);
+    color: var(--witte);
     font-weight: bold;
     border-radius: 3rem;
     display: grid;
