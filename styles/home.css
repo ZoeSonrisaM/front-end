@@ -3,6 +3,10 @@ section:nth-of-type(1) a{
     text-decoration: underline;
 	text-decoration-color: var(--klikbaar);
 	text-underline-offset: .3em;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
 }
 
 main > section:nth-of-type(1) {
@@ -29,6 +33,10 @@ main section:nth-of-type(1) section:nth-of-type(1) {
     margin-bottom: -13rem;
     position: relative;
     z-index: 1;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
 }
 
 main section:nth-of-type(1) section:nth-of-type(1) a:hover {
@@ -54,12 +62,19 @@ main section:nth-of-type(2) {
     background-color: var(--blauw);
     color: var(--witte);
     padding: 1.25rem 1.25rem 2.5rem;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
 }
 
 main section:nth-of-type(2) h2{
     padding-bottom: 1rem;
     text-align: center;
     z-index: 100;
+    @media (prefers-color-scheme:dark){
+        color: var(--klikbaar);
+    }
 }
 
 section:nth-of-type(2) form{
@@ -72,7 +87,11 @@ section:nth-of-type(2) input {
     height: 100%;
     border: solid 1px var(--witte);
     padding: 4%;
-  border-radius: .5em .0 .0 .5em;
+    border-radius: .5em .0 .0 .5em;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
 }
 
 section:nth-of-type(2) ::placeholder{
@@ -85,6 +104,7 @@ section:nth-of-type(2) button {
     background-color: var(--klikbaar);
     color: var(--witte);
     border-radius: 0 .5em .5em 0;
+    
 }
 
 @media (hover: hover) {
@@ -94,6 +114,10 @@ section:nth-of-type(2) button {
       background-color: var(--zwart);
       text-decoration: none;
       transition: 0.8s;
+      @media (prefers-color-scheme:dark){
+        background-color: var(--witte);
+        color: var(--klikbaar);
+    }
     }
 }
 
@@ -109,8 +133,6 @@ section:nth-of-type(2) button {
         padding: 3.75rem 2.5rem 3.75rem;
         height: auto;
         color: var(--zwart);
-        background-color: var(--witte);
-        border: solid 1px var(--witte);
         box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
         border-radius: 10px;
         margin-top: -5rem;
@@ -118,45 +140,13 @@ section:nth-of-type(2) button {
   
   section:nth-of-type(2) h2 {
     color: var(--zwart);
+    margin: 2rem;
     z-index: 100;
   }
 }
-/*
-main section:nth-of-type(2) {
-    background-color: #05C7F2;
-    color: white;
-    padding: 1.25rem 1.25rem 2.5rem;
-}
-
-main section:nth-of-type(2) h2{
-    padding-bottom: 1rem;
-}
-
-section:nth-of-type(2) form{
-    display: flex;
-    justify-content: center;
-}
-
-section:nth-of-type(2) input {
-    width: 100%;
-    height: 100%;
-    border: solid 1px #e5e5e5;
-    padding: 4%;
-}
-
-section:nth-of-type(2) ::placeholder{
-    font-size: 1rem;
-}
-
-section:nth-of-type(2) button {
-    border: solid 1px var(--klikbaar);
-    padding: 4%;
-}
-*/
 
 @media (hover: hover) {
-    /* when hover is supported */
-    main section:nth-of-type(3) ul li a p :hover { /* oke ik krijg het niet voor elkaar om die hover p uit te zetten want alleen de h3 moet meekleuren dus dit moet ik even na gaan vragen*/
+    main section:nth-of-type(3) ul li a p :hover { 
       text-decoration: none;
       transition: none;
     }
@@ -164,6 +154,10 @@ section:nth-of-type(2) button {
 
 main section:nth-of-type(3) {
     padding: 10%;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
 }
 
 main section:nth-of-type(3) h2{
@@ -180,6 +174,10 @@ main section:nth-of-type(3) ul li {
     margin-bottom: 1.25rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px;
     display: grid;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--klikbaar);
+        color: var(--zwart);
+    }
 }
 
 main section:nth-of-type(3) p{
@@ -236,6 +234,10 @@ main section:nth-of-type(3) ul li a p time{
     left: 2rem;
     padding: .5rem;
     border-radius: 0 0 3px 3px;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
 }
 
 main section:nth-of-type(3) a:nth-of-type(4) {
@@ -265,11 +267,19 @@ main > section:nth-of-type(3) > a {
 main section:nth-of-type(4) {
     padding: 0 20px 0 20px;
     display: grid;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
 }
 
 main section:nth-of-type(4) img{
     border-radius: 50%;
     max-width: 70%;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
 }
 
 main section:nth-of-type(4) a{
@@ -338,10 +348,14 @@ footer section:nth-of-type(1){
     display: flex;
     flex-direction: column;
     padding: 0 20px 0 20px;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--klikbaar);
+        color: var(--zwart);
+    }
 }
 
 footer section:nth-of-type(1) >a:nth-of-type(1){ /*als ik deze aanpas dan gaan de a'tjes in de list hieronder ook mee en ik snap niet waarom?*/
-    background-color: var(--witte);
+    background-color: var(--zwart);
     font-weight: bold;
     border-radius: 3rem;
     display: grid;
@@ -353,7 +367,7 @@ footer section:nth-of-type(1) >a:nth-of-type(1){ /*als ik deze aanpas dan gaan d
     /* when hover is supported */
     footer section:nth-of-type(1) a:nth-of-type(1):hover {
       color: var(--witte);
-      background-color: var(--zwart);
+      background-color: var(--klikbaar);
       text-decoration: none;
       transition: 0.8s;
     }
@@ -377,6 +391,10 @@ footer section:nth-of-type(1) ul li{
 	list-style: none;
 	padding: 1rem;
 }
+
+footer section:nth-of-type(1) ul li a{
+    background-color: var(--witte);
+}
  
 footer section:nth-of-type(2) {
 	background-color: var(--zwart);
@@ -393,10 +411,12 @@ footer section:nth-of-type(2) ul{
  
 footer section:nth-of-type(2) ul li{
 	background-color: var(--zwart);
+    
 }
  
 footer section:nth-of-type(2) ul li a{
 	color: var(--witte);
+    
 }
  
 footer h2{

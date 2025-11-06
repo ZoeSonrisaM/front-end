@@ -19,9 +19,10 @@
 	/* startje */
 	--zwart:#000;
 	--witte: #ffffff;
-    --grijs: #968c8c;
+    --lichtgrijs: #c0c0c0;
 	--klikbaar:#F2059F;
     --blauw:#05C7F2;
+    --lichtblauw:#7ee7ea;
 }
 
 
@@ -171,7 +172,7 @@ header nav ul:nth-of-type(1) li:nth-of-type(7) :hover{
     /* when hover is supported */
     header nav ul:nth-of-type(1) li:nth-of-type(7) :hover {
       color: var(--zwart);
-      background-color: var(--grijs);
+      background-color: var(--lichtgrijs);
       text-decoration: none;
       transition: 0.8s;
     }

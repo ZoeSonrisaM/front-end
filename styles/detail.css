@@ -1,6 +1,17 @@
+main{
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
+}
+
 main section:nth-of-type(1) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
 }
 
 main svg{
@@ -13,6 +24,10 @@ main section:nth-of-type(1) {
     margin: 5%;
     border-radius: 3rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px; /* <uit de code van de originele website gehaald*/
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
 }
 
 main section:nth-of-type(1) a:nth-of-type(1) { /*Terug naar zoekresultaten*/
@@ -192,7 +207,7 @@ main section:nth-of-type(1) button:nth-of-type(1) {
     /* when hover is supported */
     main section:nth-of-type(1) button:nth-of-type(1):hover {
       color: var(--witte);
-      background-color: var(--grijs);
+      background-color: var(--lichtgrijs);
       text-decoration: none;
       transition: 0.5s;
     }
@@ -216,8 +231,8 @@ main section:nth-of-type(1) button:nth-of-type(2) {
     /* when hover is supported */
     main section:nth-of-type(1) button:nth-of-type(2):hover {
       color: var(--witte);
-      background-color: var(--grijs);
-      border-color: var(--grijs);
+      background-color: var(--lichtgrijs);
+      border-color: var(--lichtgrijs);
       text-decoration: none;
       transition: 0.5s;
     }
@@ -238,8 +253,19 @@ main section:nth-of-type(1) button:nth-of-type(2) img{ /*icon van een lijstje*/
     width: 1px;
 }
 
+main section:nth-of-type(2) {
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
+}
+
 main section:nth-of-type(2) nav{
-    background: white;
+    background: var(--witte);
+    @media (prefers-color-scheme:dark){
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
 }
 
 main section:nth-of-type(2) ul{
@@ -248,13 +274,129 @@ main section:nth-of-type(2) ul{
     gap: 1rem;
 }
 
+main section:nth-of-type(2) ul li:nth-of-type(1) a{
+    color: var(--witte);
+    @media (prefers-color-scheme:dark){
+        color: var(--klikbaar);
+    }
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(1) div h2{
+    display: flex;
+    justify-self: flex-start;
+    font-weight:normal;
+    font-size: large;
+    margin: 1rem;
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(1) table{
+    width: 100%;
+    padding: 1rem;
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(1) th{
+    padding: 1rem;
+    border-bottom: solid var(--lichtgrijs);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(1) td{
+    padding: 1rem;
+    border-bottom: solid var(--lichtgrijs);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(2) table{
+    padding: 1rem;
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(2) td{
+    border-bottom: solid var(--lichtgrijs);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(2) th{
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(2) a{
+    color: var(--klikbaar);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(3) a{
+    background-color: var(--lichtblauw);
+    font-weight: 700;
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    align-content: center;
+    border-radius: 5px;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--blauw);
+        color: var(--klikbaar);
+    }
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(3) p{
+    background-color: var(--lichtblauw);
+    padding: 1rem;
+    margin: 2rem;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--blauw);
+        color: var(--witte);
+    }
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(4) p{
+    background-color: var(--lichtblauw);
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    align-content: center;
+    border-radius: 3px;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--blauw);
+        color: var(--klikbaar);
+    }
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(5) a{
+    background-color: var(--lichtblauw);
+    font-weight: 700;
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    align-content: center;
+    border-radius: 5px;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--blauw);
+        color: var(--klikbaar);
+    }
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(5) p{
+    background-color: var(--lichtblauw);
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    align-content: center;
+    border-radius: 3px;
+    @media (prefers-color-scheme:dark){
+        background-color: var(--blauw);
+        color: var(--witte);
+    }
+}
+
 main section:nth-of-type(2) ul li label{
    position: relative;
    isolation: isolate;
+   color: var(--zwart);
+   border-radius: 5px;
+   margin: 5px;
 }
 
 main section:nth-of-type(2) ul li label input{
-    background: blue;
+    background-color: var(--lichtgrijs);
+    color: var(--zwart);
     position: absolute;
     top: 0;
     left: 0;
@@ -265,7 +407,9 @@ main section:nth-of-type(2) ul li label input{
 }
 
 main section:nth-of-type(2) ul li label input:checked{
-    background-color: purple;
+    background-color: var(--klikbaar);
+    color: var(--zwart);
+    border-radius: 5px;
 }
 
 
@@ -275,7 +419,6 @@ main section:nth-of-type(2) > ul li {
 
 main section:nth-of-type(2):has(li:nth-of-type(1) input:checked) > ul li:nth-of-type(1){
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 main section:nth-of-type(2):has(li:nth-of-type(2) input:checked) > ul li:nth-of-type(2){
@@ -294,44 +437,12 @@ main section:nth-of-type(2):has(li:nth-of-type(5) input:checked) > ul li:nth-of-
     display: block;
 }
 
-
-/*
-main section:nth-of-type(2) ul:nth-of-type(1) {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+main section:nth-of-type(3) {
+    @media (prefers-color-scheme:dark){
+        background-color: var(--klikbaar);
+        color: var(--witte);
+    }
 }
-
-main section:nth-of-type(2) ul{
-    display: flex;
-    list-style: none;
-    border-bottom: 1px solid #cccccc;
-}
-
-main section:nth-of-type(2) ul button{
-    border: 1px;
-    border-bottom: none;
-    background: none;
-    color: var(--klikbaar);
-    font-weight: bold;
-    padding: 1em;
-    cursor: pointer;
-}
-
-main section:nth-of-type(2) ul button[aria-selected="false"]:hover {
-    color: var(--klikbaar);
-}
-
-main section:nth-of-type(2) ul button[aria-selected="true"] {
-    border: 1px solid #ccc;
-    border-bottom: 1px solid var(--witte);
-    background: var(--witte);
-    color: var(--zwart);
-    border-radius: .5em .5em 0 0;
-}
-
-*/
 
 main section:nth-of-type(3) h2{
     justify-content: flex-start;

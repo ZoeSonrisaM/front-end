@@ -164,8 +164,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Ik heb in deze week nog niet mijn eigen website kunnen testen op toegankelijkheid omdat ik nog niet ver genoeg was om iets te kunnen
-  testen.
+  De website is toegankelijk, ik heb het getest met het formulier dat we gekregen hebben.
 
 </details>
 
@@ -220,18 +219,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb geleerd om met grid te werken, dit vond ik echt een eye opener inplaats van met flex box werken elke keer.
+  En ik ben achter het bestaan van tables gekomen en dat vond ik ook wel interessant om te gebruiken.
 
   <img src="readme-images/grid.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Ik vond de nav heel erg lastig. 
-  Er zijn best wel veel dingen niet gelukt (ik zal ze even opnoemen):
-    wat niet gelukt is zijn de twee carousels op de detail pagina. Ik kwam daarmee toch nogal in tijdsnood.
-    de dark mode is niet gelukt vanwege dat ik de root kleur niet aan de praat kreeg (en ik kwam er niet uit vanwege dat bepaalde elementen meerdere kleuren hadden).
-    de footer op de home pagina is niet helemaal gelukt. 
-    het stukje van het filmhuis op de home pagina is ook niet helemaal gelukt.
-    ook hebben niet alle a'tjes en buttons het gewenste effect als je eroverheen hovert.
+  en de tabjes met de list was erg ingewikkeld om aan de praat te krijgen.
 
   <img src="readme-images/nav.png" width="375px" alt="bummer">
   <img src="readme-images/carousel.png" width="375px" alt="bummer">
