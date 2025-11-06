@@ -239,7 +239,7 @@ main section:nth-of-type(1) button:nth-of-type(2) img{ /*icon van een lijstje*/
 }
 
 main section:nth-of-type(2) nav{
-    background-color: white;
+    background: white;
 }
 
 main section:nth-of-type(2) ul{
@@ -250,6 +250,7 @@ main section:nth-of-type(2) ul{
 
 main section:nth-of-type(2) ul li label{
    position: relative;
+   isolation: isolate;
 }
 
 main section:nth-of-type(2) ul li label input{
@@ -260,7 +261,6 @@ main section:nth-of-type(2) ul li label input{
     appearance: none;
     height: 100%;
     width: 100%;
-    background: red;
     z-index: -1;
 }
 
