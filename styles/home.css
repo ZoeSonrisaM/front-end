@@ -3,11 +3,58 @@ section:nth-of-type(1) a{
     text-decoration: underline;
 	text-decoration-color: var(--klikbaar);
 	text-underline-offset: .3em;
-    @media (prefers-color-scheme:dark){
+}
+
+@media (prefers-color-scheme:dark){
+    section:nth-of-type(1) a{
+    background-color: var(--zwart);
+    color: var(--witte);
+    }
+    main section:nth-of-type(1) section:nth-of-type(1){
         background-color: var(--zwart);
         color: var(--witte);
     }
+    main section:nth-of-type(2) {
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
+    main section:nth-of-type(2) h2{
+        color: var(--klikbaar);
+    }
+    section:nth-of-type(2) input {
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
+    section:nth-of-type(2) button:hover {
+        background-color: var(--witte);
+        color: var(--klikbaar);
+    }
+    main section:nth-of-type(3) {
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
+    main section:nth-of-type(3) ul li {
+        background-color: var(--klikbaar);
+        color: var(--zwart);
+    }
+    main section:nth-of-type(3) ul li a p time{
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
+    main section:nth-of-type(4) {
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
+    main section:nth-of-type(4) img{
+        background-color: var(--zwart);
+        color: var(--klikbaar);
+    }
+    footer section:nth-of-type(1){
+        background-color: var(--klikbaar);
+        color: var(--zwart);
+    }
 }
+
 
 main > section:nth-of-type(1) {
     background: linear-gradient(180deg, var(--klikbaar) 80%, var(--witte) 80%);
@@ -33,10 +80,6 @@ main section:nth-of-type(1) section:nth-of-type(1) {
     margin-bottom: -13rem;
     position: relative;
     z-index: 1;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--witte);
-    }
 }
 
 main section:nth-of-type(1) section:nth-of-type(1) a:hover {
@@ -62,20 +105,14 @@ main section:nth-of-type(2) {
     background-color: var(--blauw);
     color: var(--witte);
     padding: 1.25rem 1.25rem 2.5rem;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
 }
 
 main section:nth-of-type(2) h2{
     padding-bottom: 1rem;
     text-align: center;
     z-index: 100;
-    @media (prefers-color-scheme:dark){
-        color: var(--klikbaar);
-    }
 }
+
 
 section:nth-of-type(2) form{
     display: flex;
@@ -88,10 +125,6 @@ section:nth-of-type(2) input {
     border: solid 1px var(--witte);
     padding: 4%;
     border-radius: .5em .0 .0 .5em;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
 }
 
 section:nth-of-type(2) ::placeholder{
@@ -114,10 +147,6 @@ section:nth-of-type(2) button {
       background-color: var(--zwart);
       text-decoration: none;
       transition: 0.8s;
-      @media (prefers-color-scheme:dark){
-        background-color: var(--witte);
-        color: var(--klikbaar);
-    }
     }
 }
 
@@ -154,11 +183,9 @@ section:nth-of-type(2) button {
 
 main section:nth-of-type(3) {
     padding: 10%;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
 }
+
+
 
 main section:nth-of-type(3) h2{
     display: flex;
@@ -174,10 +201,6 @@ main section:nth-of-type(3) ul li {
     margin-bottom: 1.25rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px;
     display: grid;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--klikbaar);
-        color: var(--zwart);
-    }
 }
 
 main section:nth-of-type(3) p{
@@ -234,10 +257,6 @@ main section:nth-of-type(3) ul li a p time{
     left: 2rem;
     padding: .5rem;
     border-radius: 0 0 3px 3px;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
 }
 
 main section:nth-of-type(3) a:nth-of-type(4) {
@@ -267,19 +286,11 @@ main > section:nth-of-type(3) > a {
 main section:nth-of-type(4) {
     padding: 0 20px 0 20px;
     display: grid;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--witte);
-    }
 }
 
 main section:nth-of-type(4) img{
     border-radius: 50%;
     max-width: 70%;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--klikbaar);
-    }
 }
 
 main section:nth-of-type(4) a{
@@ -348,10 +359,6 @@ footer section:nth-of-type(1){
     display: flex;
     flex-direction: column;
     padding: 0 20px 0 20px;
-    @media (prefers-color-scheme:dark){
-        background-color: var(--klikbaar);
-        color: var(--zwart);
-    }
 }
 
 footer section:nth-of-type(1) >a:nth-of-type(1){ /*als ik deze aanpas dan gaan de a'tjes in de list hieronder ook mee en ik snap niet waarom?*/

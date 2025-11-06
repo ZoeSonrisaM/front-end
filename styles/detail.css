@@ -5,13 +5,20 @@ main{
     }
 }
 
-main section:nth-of-type(1) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    @media (prefers-color-scheme:dark){
+@media (prefers-color-scheme:dark){
+    main section:nth-of-type(1) {
         background-color: var(--zwart);
         color: var(--witte);
     }
+    main section:nth-of-type(2) {
+        background-color: var(--zwart);
+        color: var(--witte);
+    }
+}
+
+main section:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 main svg{
@@ -24,10 +31,6 @@ main section:nth-of-type(1) {
     margin: 5%;
     border-radius: 3rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px; /* <uit de code van de originele website gehaald*/
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--witte);
-    }
 }
 
 main section:nth-of-type(1) a:nth-of-type(1) { /*Terug naar zoekresultaten*/
@@ -251,13 +254,6 @@ main section:nth-of-type(1) button:nth-of-type(2) img{ /*icon van een lijstje*/
     position: absolute;
     white-space: nowrap;
     width: 1px;
-}
-
-main section:nth-of-type(2) {
-    @media (prefers-color-scheme:dark){
-        background-color: var(--zwart);
-        color: var(--witte);
-    }
 }
 
 main section:nth-of-type(2) nav{
