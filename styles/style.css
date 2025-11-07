@@ -18,12 +18,12 @@
 :root {
 	/* startje */
     color-scheme: light dark;
-	--zwart:#000 #ffffff;
-	--witte: #ffffff #000;
-    --lichtgrijs: #c0c0c0 #7ee7ea;
+	--zwart:light-dark(#000, #ffffff);
+	--witte: light-dark(#ffffff, #000);
+    --lichtgrijs: light-dark(#c0c0c0, #7ee7ea);
 	--klikbaar:#F2059F;
-    --blauw:#05C7F2 #000;
-    --lichtblauw:#7ee7ea #05C7F2;
+    --blauw:light-dark(#05C7F2, #000);
+    --lichtblauw:light-dark(#7ee7ea, #05C7F2);
 }
 
 
