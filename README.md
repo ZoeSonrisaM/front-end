@@ -163,8 +163,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
+  De home pagina van de originele website heeft een soortgelijke toegankelijkheid qua screenreader als mijn versie. De originele pagina heeft de elementen en linkjes in de navigatie wel beter verwoord dan dat ik zelf heb gedaan. Bij mij hoor je niet dat iets een uitklapmenu is en bij de originele website hoor je dat wel. 
+  De html zelf van de originele website is enorm onduidelijk, er staan heel veel dingen in die ik nog nooit heb gezien en het is niet makkelijk te lezen, dat is mijn versie daarentegen wel. 
+  De afbeeldingen hebben niet allemaal een even duidelijk alt tekst bij de originele website, ik vind mijn eigen alt tekst iets duidelijker. Wanneer er bijvoorbeeld een tekst te zien is op een afbeelding staat dat er bij de originele website niet bij in de alt tekst, ik heb dat wel gedaan. 
+  Wanneer je op de originele website met tab door de website heengaat dan zie je bij buttons en de meeste links een focus state, ik had dat zelf nog niet omdat ik niet zo goed wist hoe dit moest. Dat is mij wel uitgelegd tijdens het mondeling van de herkansing die ik vandaag had.  
+  De originele website heeft ook geen dark mode, alles ziet er gewoon hetzelfde uit. Ik heb wel een dark mode gemaakt (die ook wel iets beter kan maar het is in ieder geval wel iets).
+  Op de detail pagina van de originele website zie ik dat wanneer je er met tab doorheen gaat dat de buttons wel een focus state geven maar de links niet, dit is wel wat verwarrend. 
+  Conclusie: 
+  Op bepaalde onderwerpen is de originele website iets beter, zoals bij dat je hoort of iets een uitklapmenu is als je er met tab op gaat staan. En bij andere dingen is mijn versie van de website beter, zoals de alt teksten en de dark mode. 
+
   ### Bevindingen
   De website is toegankelijk, ik heb het getest met het formulier dat we gekregen hebben.
+  <img src="readme-images/wcag-1.jpg" width="375px" alt="foto van ingevuld WCAG checklist bladzijde 1">
+  <img src="readme-images/wcag-2.jpg" width="375px" alt="foto van ingevuld WCAG checklist bladzijde 2">
+  <img src="readme-images/wcag-3.jpg" width="375px" alt="foto van ingevuld WCAG checklist bladzijde 3">
+  <img src="readme-images/wcag-4.jpg" width="375px" alt="foto van ingevuld WCAG checklist bladzijde 4">
+  <img src="readme-images/wcag-5.jpg" width="375px" alt="foto van ingevuld WCAG checklist bladzijde 5">
 
 </details>
 
